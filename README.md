@@ -6,9 +6,11 @@ Thanks for visiting my GitHub account!
 
 **The Model-View-Controller (MVC)** framework is an architectural/design pattern that separates an application into three main logical components Model, View, and Controller. Each architectural component is built to handle specific development aspects of an application. It isolates the business logic and presentation layer from each other. It was traditionally used for desktop graphical user interfaces (GUIs). Nowadays, MVC is one of the most frequently used industry-standard web development frameworks to create scalable and extensible projects. It is also used for designing mobile apps.
 
-![](images/model-view-controller-light-blue.png)
+|                                                         |
+| :-----------------------------------------------------: |
+| ![mvc](images/model-view-controller-light-blue.png) |
 
-MVC was created by Trygve Reenskaug. The main goal of this design pattern was to solve the problem of users controlling a large and complex data set by splitting a large application into specific sections that all have their own purpose.View [see-more](https://www.geeksforgeeks.org/mvc-framework-introduction/)
+MVC was created by Trygve Reenskaug. The main goal of this design pattern was to solve the problem of users controlling a large and complex data set by splitting a large application into specific sections that all have their own purpose.[see-more](https://www.geeksforgeeks.org/mvc-framework-introduction/)
 
 ## CODE-EXAMPLE
 
@@ -37,7 +39,7 @@ The MVC framework includes the following 3 components:
 
 |                               |
 | :---------------------------: |
-| ![roadmap](images/Model1.png) |
+| ![mvc](images/Model1.png) |
 
 ### Controller:
 
@@ -93,8 +95,7 @@ Let’s imagine an end-user sends a request to a server to get a list of student
 
 |                               |                                          |
 | :---------------------------: | :--------------------------------------: |
-|            Model-1            |                 Model-2                  |
-| ![roadmap](images/Model2.png) | ![roadmap](images/working-principle.jpg) |
+| ![mvc](images/Model2.png) | ![mvc](images/working-principle.jpg) |
 
 The model would query the database for the list of all students and then return that list back to the controller. If the response back from the model was successful, then the controller would ask the view associated with students to return a presentation of the list of students. This view would take the list of students from the controller and render the list into HTML that can be used by the browser.
 
@@ -104,18 +105,18 @@ As we can see from the above example, the model handles all of the data. The vie
 
 ### The MVC architectural pattern allows us to adhere to the following design principles:
 
-1. Divide and conquer. The three components can be somewhat independently designed.
-2. Increase cohesion. The components have stronger layer cohesion than if the view and controller were together in a single UI layer.
-3. Reduce coupling. The communication channels between the three components are minimal and easy to find.
-4. Increase reuse. The view and controller normally make extensive use of reusable components for various kinds of UI controls. The UI, however, will become application-specific, therefore it will not be easily reusable.
-5. Design for flexibility. It is usually quite easy to change the UI by changing the view, the controller, or both.
+1. **Divide and conquer:** The three components can be somewhat independently designed.
+2. **Increase cohesion:** The components have stronger layer cohesion than if the view and controller were together in a single UI layer.
+3. **Reduce coupling:** The communication channels between the three components are minimal and easy to find.
+4. **Increase reuse:** The view and controller normally make extensive use of reusable components for various kinds of UI controls. The UI, however, will become application-specific, therefore it will not be easily reusable.
+5. **Design for flexibility:** It is usually quite easy to change the UI by changing the view, the controller, or both.
 
 ## MVC-STRUCTURE
 
 |                                     |
 | :---------------------------------: |
 |                 MVC                 |
-| ![roadmap](images/laravel-mvc.webp) |
+| ![mvc](images/laravel-mvc.webp) |
 
 ## Follow Me
 
